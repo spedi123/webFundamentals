@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
   </head>
   <body>
     <h1>Peter An</h1>
@@ -13,11 +21,15 @@
       alt="profile_picture"
     />
     <p>
-      <a href="#">GitHub</a> | <a href="#">LinkedIn</a> |
-      <a href="#">Email</a>
+      <a href="https://github.com/spedi123">my github</a> |
+      <a href="https://www.linkedin.com/in/seonggyu-an-16a965152/"
+        >my linkedin</a
+      >
+      |
+      <a href="peteran8604@gmail.com">my email</a>
     </p>
-    <h3>Technologies:</h3>
-    <table border="1px" solid black>
+    <h3>Technologies</h3>
+    <table>
       <tbody>
         <tr>
           <th>Front-End</th>
@@ -28,25 +40,36 @@
         </tr>
         <tr>
           <td>HTML5</td>
-          <td>React</td>
-          <td>Flask</td>
+          <td>Django</td>
+          <td>EXPRESS</td>
           <td>MySQL</td>
-          <td>APIs</td>
+          <td>AJAX</td>
         </tr>
         <tr>
           <td>CSS3</td>
+          <td>Flask</td>
           <td>Mongoose</td>
-          <td>Django</td>
           <td>MongoDB</td>
+          <td>OOP</td>
+        </tr>
+        <tr>
+          <td>Bootstrap</td>
+          <td>Unittest</td>
+          <td>React</td>
+          <td></td>
           <td>REST</td>
         </tr>
       </tbody>
     </table>
-    <h3>Project: Social Snakes</h3>
-    <img src="snek.png" alt="snek" height="128px" />
+    <h3>Social Snakes</h3>
+    <img
+      src="https://cdn4.iconfinder.com/data/icons/social-media-black-white-2/600/Instagram_glyph_svg-512.png"
+      alt="snkes"
+      height="100px"
+    />
     <p>
-      Social Networking in Python <a href="#">deployed</a> |
-      <a href="#">code</a>
+      Social Media App made in Python<a href="#">code</a> |
+      <a href="#">deployed</a>
     </p>
     <h3>Contact Me</h3>
     <form>
@@ -56,10 +79,12 @@
         <label>Email:</label>
         <input type="text" name="email" />
       </div>
+      <br />
       <div>
         <label>Message:</label>
         <textarea name="message" cols="40" rows="3"></textarea>
       </div>
+      <br />
       <input type="submit" value="Send Message" />
     </form>
   </body>
