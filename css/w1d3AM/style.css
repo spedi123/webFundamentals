@@ -21,3 +21,25 @@ h2 {
 h3 {
     font-family: cursive;
 }
+
+p {
+    color: indigo;
+    line-height: 25px;
+}
+
+#first_p {
+    font-style: italic;
+    color: fuchsia;
+}
+
+.unda {
+    text-decoration: underline;
+}
+
+ol>li {
+    font-size: 28px;
+}
+
+ul>li {
+    font-size: 14px;
+}

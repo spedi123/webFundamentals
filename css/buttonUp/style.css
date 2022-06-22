@@ -1,0 +1,28 @@
+button {
+    display: block;
+    height: 50px;
+    margin: 20px 0px
+}
+
+.btn_search {
+    background-color: #c4f5f4f7;
+    color: #17b79f;
+    width: 150px;
+    border: 2px solid #17b79f;
+    border-radius: 20px;
+}
+.btn_add {
+    background-color: #06fcd79e;
+    color: white;
+    width: 50px;
+    border-radius: 50%;
+    border : none;
+}
+.btn_create {
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    
+}
