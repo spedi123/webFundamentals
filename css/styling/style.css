@@ -1,0 +1,21 @@
+.title {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#cloud {
+    color:#00f7ff
+}
+.project {
+    background-color: rgb(95, 13, 183);
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+.contact {
+    background-color: skyblue;
+    color: black;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: lighter;
+}
