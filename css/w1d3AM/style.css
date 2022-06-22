@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: firebrick;
+    font-size: 40px;
+    background-color: cornflowerblue;
+}
+
+h2 {
+    text-align: right;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 900;
+    font-family: monospace;
+}
+
+h3 {
+    font-family: cursive;
+}
