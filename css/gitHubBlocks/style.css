@@ -3,8 +3,10 @@ img.octocat {
 }
 
 .container {
+    width: 800px;
     background-color: silver;
     padding: 20px;
+    text-align: center;
 }
 .subject {
     text-align: center;
