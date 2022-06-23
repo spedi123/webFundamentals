@@ -1,0 +1,29 @@
+img.octocat {
+    height: 200px;
+}
+
+.container {
+    background-color: silver;
+    padding: 20px;
+}
+.subject {
+    text-align: center;
+    font-size: 50px;
+}
+.first_row, .second_row, .third_row {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+}
+.first_row {
+    background-color: skyblue;
+    padding: 20px;
+}
+.second_row {
+    background-color: pink;
+    padding: 20px;
+}
+.third_row {
+    background-color: white;
+    padding: 20px;
+}
