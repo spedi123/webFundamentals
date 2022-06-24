@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, gray, white 30%);
+    background-repeat: no-repeat;
+}
+
+.main {
+    height: 700px;
+    width: 1300px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+#cover-photo {
+    width: 1300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.profile-pic, #thumbnail {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.profile-pic {
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+}
+#thumbnail {
+    border: 4px solid white;
+}
+
+.info {
+    margin-left: 50px;
+}
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1rem;
+}
