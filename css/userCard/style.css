@@ -1,7 +1,9 @@
-/* * {
+* {
     margin: 0px;
     padding: 0px;
-} */
+    box-sizing: border-box;
+}
+
 form {
     width: 1000px;
     margin: 0 auto;
@@ -21,12 +23,15 @@ form {
     left: 30px;
     bottom: 50px;
 }
+h1, h3, p {
+    margin: 20px 0px;
+}
 
 #userImage {
     height: 100px;
     position: relative;
     left: 50px;
-    top: -50px;
+    bottom: 50px;
 }
 
 #mapMarker {
