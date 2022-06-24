@@ -1,0 +1,39 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+form {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.userCard {
+    border: 3px solid rgb(204,204,204);
+}
+
+.top-profile {
+    height:100px;
+    background-color: rgb(20,162,184);
+}
+
+.userInfo {
+    position: relative;
+    left: 30px;
+    bottom: 50px;
+}
+
+#userImage {
+    height: 100px;
+    position: relative;
+    left: 50px;
+    top: -50px;
+}
+
+#mapMarker {
+    height: 15px;
+}
+
+#gear {
+    height: 15px;
+}
+
