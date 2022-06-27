@@ -14,13 +14,17 @@
         <input type="text" placeholder="Search a puppy name" />
         <button class="navbar-btn">Search!</button>
       </div>
-      <button class="navbar-btn">Login</button>
+      <button class="navbar-btn" onclick="login(this)">Login</button>
     </div>
     <div id="main">
       <div id="col-left">
         <div class="puppy">
           <div class="puppy-left">
-            <img src="./resources/puppy.jpeg" alt="puppy1" />
+            <img
+              onmouseover="changeImg(this)"
+              src="./resources/puppy.jpeg"
+              alt="puppy1"
+            />
             <h3>Junior</h3>
             <em>Male</em>
             <p>Breed: <em>Fox</em></p>
@@ -52,11 +56,16 @@
       <div id="col-right">
         <div id="upload">
           <p>Please upload your pup info to our puppy social media!</p>
-          <button>Upload new Pup!</button>
+          <button onclick="uploadPup(this)">Upload new Pup!</button>
         </div>
         <div id="video-box">
           <p>Our popular video of the week!</p>
-          <video src="./resources/puppy_video.mp4"></video><br />
+          <video
+            src="./resources/puppy_video.mp4"
+            onmouseover="playVideo(this)"
+            onmouseout="pauseVideo(this)"
+          ></video
+          ><br />
           <em>This is Josie, the playful beach dog!</em>
         </div>
       </div>
@@ -67,7 +76,8 @@
         This site will track all your information and sell it. You will get some
         dopamine hits from the scrolling. Would you like to accept this cookie?
       </p>
-      <button>I accept</button>
+      <button onclick="removeCookie()">I accept</button>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
