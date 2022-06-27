@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(204,204,204);
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    padding: 10px 50px;
+    align-items: center;
+    text-align: center;
+}
+
+#searchBar {
+    width: 400px;
+    height: 30px;
+    border: 3px solid black;
+    padding: 5px 5px;
+}
+
+::placeholder {
+    color:rgb(208,208,208);
+}
+
+#login-btn {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(43,119,228);
+    color: white;
+    border: 3px solid black;
+    box-shadow: 3px 3px 0px black;;
+}
+
+.container {
+    display: flex;
+    padding: 20px 50px;
+}
+
+.container1 {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.dic1 {
+    border: 3px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.dic-detail {
+    margin-right: 30px;
+    line-height: 30px;
+    text-align: center;
+    flex: 1;
+}
+
+.definition {
+    flex:2;
+}
+
+#definition {
+    font-size: 1.2rem;
+}
+
+#button-likes {
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: rgb(255,216,102);
+    border: 3px solid black;
+    box-shadow: 3px 3px 0px black;
+
+}
+
+.dic2 {
+    border: 3px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.container2 {
+    border: 3px solid black;
+    flex: 0.8; 
+    padding: 20px;
+    height: 160px;
+}
+
+#dojonary {
+    font-size: 1.5rem;
+    text-align: start
+}
+
+#you {
+    font-weight: bold;
+}
+
+#addDefinition {
+    background-color: rgb(146,196,124);
+    width: 180px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 1rem;
+    border: 3px solid black;
+    box-shadow: 3px 3px 0px black;
+}

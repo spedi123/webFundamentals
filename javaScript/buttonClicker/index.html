@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1>Dojonary</h1>
+      <input type="text" placeholder="Search" id="searchBar" />
+      <button id="login-btn" onclick="loginButton(this)">Login</button>
+    </div>
+    <script src="buttonClicker.js"></script>
+    <div class="container">
+      <div class="container1">
+        <div class="dic1">
+          <div class="dic-detail">
+            <h1>ninja</h1>
+            <p><em>noun</em></p>
+            <p>Plural: <em>ninjas</em></p>
+            <button id="button-likes" onclick="likes()">13 Likes</button>
+          </div>
+          <div class="definition">
+            <p id="definition">
+              A practitioner skilled in the <br />
+              <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+            </p>
+          </div>
+        </div>
+        <div class="dic2">
+          <div class="dic-detail">
+            <h1>ninja</h1>
+            <p><em>noun</em></p>
+            <p>Plural: <em>ninjas</em></p>
+            <button id="button-likes" onclick="likes()">37 Likes</button>
+          </div>
+          <div class="definition">
+            <p id="definition">
+              A <a href="#">programmer</a> who breaks <br />
+              down problems with <a href="#">zen</a>-like <br />
+              focus
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container2">
+        <p id="dojonary">
+          Dojonary is <br />
+          defined by <span id="you">YOU</span>
+        </p>
+        <button id="addDefinition" onclick="addDefinition(this)">
+          Add Definition
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
