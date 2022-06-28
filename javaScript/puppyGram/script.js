@@ -26,3 +26,11 @@ function removeCookie(element) {
   var cookie = document.querySelector("#cookie-box");
   cookie.remove();
 }
+
+var count = 0;
+function incrementLike(pupCount) {
+  var element = document.querySelector(pupCount);
+  var likeCount = Number(element.innerText);
+  likeCount += 1;
+  element.innerText = likeCount;
+}
