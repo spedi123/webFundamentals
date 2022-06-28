@@ -31,12 +31,14 @@
     background-color: rgb(43,119,228);
     color: white;
     border: 3px solid black;
-    box-shadow: 3px 3px 0px black;;
+    box-shadow: 3px 3px 0px black;
 }
 
 .container {
     display: flex;
     padding: 20px 50px;
+    border: 2px dotted red;
+    align-items: flex-start;
 }
 
 .container1 {
@@ -89,7 +91,6 @@
     border: 3px solid black;
     flex: 0.8; 
     padding: 20px;
-    height: 160px;
 }
 
 #dojonary {
