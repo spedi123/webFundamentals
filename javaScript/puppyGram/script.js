@@ -34,3 +34,9 @@ function incrementLike(pupCount) {
   likeCount += 1;
   element.innerText = likeCount;
 }
+
+function alertMessageFormInput() {
+  console.log("connected!!!");
+  let searchInput = document.querySelector("#search");
+  alert("You search for " + searchInput.value);
+}
